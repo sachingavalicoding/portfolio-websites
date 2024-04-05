@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio - tailwind css</title>
+  </head>
+  <body class="w-full min-h-screen bg-black">
+    <!--  Navbar  -->
+    <nav class="w-full relative top-0 border-2 text-center">
+      <div
+        class="container mx-auto flex items-center justify-between py-4 px-8 md:px-0"
+      >
+        <h2 class="font-bold text-2xl text-white">Nisha</h2>
+        <div class="hidden md:flex gap-8 items-center">
+          <a
+            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
+            href="#"
+          >
+            Home
+          </a>
+          <a
+            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
+            href="#"
+          >
+            About</a
+          >
+          <a
+            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
+            href="#"
+          >
+            Projects
+          </a>
+          <a
+            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
+            href="#"
+          >
+            Skills
+          </a>
+          <a
+            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
+            href="#"
+          >
+            Testimonials
+          </a>
+          <button
+            class="text-white ml-16 border-[2px] border-red-500 px-4 py-2 rounded-md bg-red-500 font-semibold"
+          >
+            Connect Me
+          </button>
+        </div>
+        <div class="flex md:hidden">
+          <i
+            id="menubar"
+            class="ri-menu-3-fill text-white text-3xl font-bold"
+          ></i>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="smNav"
+      class="absolute bg-black w-full items-center text-center py-4 hidden flex-col top-[5rem]"
+    >
+      <a
+        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
+        href="#"
+      >
+        Home
+      </a>
+      <a
+        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
+        href="#"
+      >
+        About</a
+      >
+      <a
+        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
+        href="#"
+      >
+        Projects
+      </a>
+      <a
+        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
+        href="#"
+      >
+        Skills
+      </a>
+      <a
+        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
+        href="#"
+      >
+        Testimonials
+      </a>
+    </div>
+
+    <!--  Projects section  -->
+
+    <section class="w-full mt-[3rem] text-white min-h-screen">
+      <h2 class="font-bold text-center text-4xl mt-4 mb-2">My Projects</h2>
+      <h4 class="font-light text-center text-xl mb-4">Project section</h4>
+      <div
+        id="projectsection"
+        class="container text-white mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-16 p-2"
+      ></div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
